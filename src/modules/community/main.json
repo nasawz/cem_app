@@ -1,38 +1,42 @@
 {
-    "dev":{
-        "title":"community",
-        "filename":"index",
-        "chunks":{
-            "vendor":{
-                "attr":{
-                    "js":"",
-                    "css":""
+    "dev": {
+        "title": "community",
+        "filename": "index",
+        "chunks": {
+            "libs/react": null,
+            "libs/react-dom": null,
+            "vendor": {
+                "attr": {
+                    "js": "",
+                    "css": ""
                 }
             },
-            "community":{
-                "attr":{
-                    "js":"",
-                    "css":""
+            "libs/antd": null,
+            "community": {
+                "attr": {
+                    "js": "",
+                    "css": ""
                 }
             }
         }
     },
-    "pub":{
-        "title":"community",
-        "filename":"index",
-        "chunks":{
+    "pub": {
+        "title": "community",
+        "filename": "index",
+        "chunks": {
             "libs/react": null,
             "libs/react-dom": null,
-            "vendor":{
-                "attr":{
-                    "js":"",
-                    "css":""
+            "vendor": {
+                "attr": {
+                    "js": "",
+                    "css": ""
                 }
             },
-            "community":{
-                "attr":{
-                    "js":"",
-                    "css":""
+            "libs/antd": null,
+            "community": {
+                "attr": {
+                    "js": "",
+                    "css": ""
                 }
             }
         }

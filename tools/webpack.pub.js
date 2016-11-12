@@ -134,9 +134,9 @@ var prodConfig = {
     ],
     // 使用外链
     externals: {
-        'wx': 'window.wx',
         'react': 'React',
         'react-dom': 'ReactDOM',
+        'antd': 'antd',
     },
     watch: false, //  watch mode
 }

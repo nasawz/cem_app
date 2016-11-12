@@ -72,6 +72,9 @@ var devConfig = {
         }
     },
     externals: {
+        'react': 'React',
+        'react-dom': 'ReactDOM',
+        'antd': 'antd',
     },
     postcss: function () {
         return [require('autoprefixer'), require('precss')]
@@ -85,20 +88,20 @@ var devConfig = {
             }
         ]),
         new webpack.optimize.CommonsChunkPlugin('vendor', 'js/vendor.js'),
-        new OptimizeCssAssetsPlugin({
-            assetNameRegExp: /\.css$/g,
-            cssProcessor: require('cssnano'),
-            cssProcessorOptions: {
-                discardComments: { removeAll: true },
-                reduceIdents: {
-                    keyframes: false
-                },
-                discardUnused: {
-                    keyframes: false
-                }
-            },
-            canPrint: true
-        }),
+        // new OptimizeCssAssetsPlugin({
+        //     assetNameRegExp: /\.css$/g,
+        //     cssProcessor: require('cssnano'),
+        //     cssProcessorOptions: {
+        //         discardComments: { removeAll: true },
+        //         reduceIdents: {
+        //             keyframes: false
+        //         },
+        //         discardUnused: {
+        //             keyframes: false
+        //         }
+        //     },
+        //     canPrint: true
+        // }),
         new ExtractTextPlugin('./css/[name].css', {
             filenamefilter: function (filename) {
                 return filename.replace('/js', '')

@@ -4,28 +4,36 @@
 
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { Provider } from 'react-redux'
-import store from './store'
-import Routes from './routes/spa.jsx'
-import {navigate} from 'react-mini-router'
+// import 'antd/dist/antd.less'
 
-const App = React.createFactory(Routes)
+import { DatePicker } from 'antd'
+ReactDOM.render(<DatePicker />, document.getElementById('container'))
 
-import '../../style/index.less'
 
-require('safe')(React, {
-    errorHandler: function () {
-        // console.log(errReport);
-    }
-})
 
-ReactDOM.render(
-    <Provider store={store()}>
-        {App({ root:'/community' })}
-    </Provider>,
-    document.getElementById('container')
-)
 
-if (window.location.hash == '#/') {
-    navigate('/community/home')
-}
+// import { Provider } from 'react-redux'
+// import store from './store'
+// import Routes from './routes/spa.jsx'
+// import {navigate} from 'react-mini-router'
+//
+// const App = React.createFactory(Routes)
+//
+// import '../../style/index.less'
+//
+// require('safe')(React, {
+//     errorHandler: function () {
+//         // console.log(errReport);
+//     }
+// })
+//
+// ReactDOM.render(
+//     <Provider store={store()}>
+//         {App({ root:'/community' })}
+//     </Provider>,
+//     document.getElementById('container')
+// )
+//
+// if (window.location.hash == '#/') {
+//     navigate('/community/home')
+// }

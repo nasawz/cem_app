@@ -1,9 +1,11 @@
 {
-  "plugins": ["transform-runtime"],
-  "presets": [ "es2015-loose", "stage-0", "react"],
-  "env": {
-    "build": {
-      "optional": ["optimisation", "minification"]
+    "plugins": ["transform-runtime", ["import", {
+        "libraryName": "antd"
+    }]],
+    "presets": ["es2015-loose", "stage-0", "react"],
+    "env": {
+        "build": {
+            "optional": ["optimisation", "minification"]
+        }
     }
-  }
 }
