@@ -68,13 +68,12 @@ var devConfig = {
             'redux': 'redux/dist/redux',
             'react-redux': 'react-redux/dist/react-redux',
             'safe': path.join(configWebpack.path.src, '/modules/common/safe.jsx'),
-            'cex': path.join(configWebpack.path.src,'/components/cex/src'),
         }
     },
     externals: {
         'react': 'React',
         'react-dom': 'ReactDOM',
-        'antd': 'antd',
+        'antd': 'window.antd',
     },
     postcss: function () {
         return [require('autoprefixer'), require('precss')]

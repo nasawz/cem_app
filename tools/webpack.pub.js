@@ -73,7 +73,6 @@ var prodConfig = {
             'redux': 'redux/dist/redux.min',
             'react-redux': 'react-redux/dist/react-redux',
             'safe': path.join(configWebpack.path.src, '/modules/common/safe.jsx'),
-            'cex': path.join(configWebpack.path.src,'/components/cex/src'),
         }
     },
     postcss: function () {
@@ -103,20 +102,20 @@ var prodConfig = {
                 filename: 'js/[name]-' + configWebpack.chunkhash + '.js'
             }
         ),
-        new OptimizeCssAssetsPlugin({
-            assetNameRegExp: /\.css$/g,
-            cssProcessor: require('cssnano'),
-            cssProcessorOptions: {
-                discardComments: { removeAll: true },
-                reduceIdents: {
-                    keyframes: false
-                },
-                discardUnused: {
-                    keyframes: false
-                }
-            },
-            canPrint: true
-        }),
+        // new OptimizeCssAssetsPlugin({
+        //     assetNameRegExp: /\.css$/g,
+        //     cssProcessor: require('cssnano'),
+        //     cssProcessorOptions: {
+        //         discardComments: { removeAll: true },
+        //         reduceIdents: {
+        //             keyframes: false
+        //         },
+        //         discardUnused: {
+        //             keyframes: false
+        //         }
+        //     },
+        //     canPrint: true
+        // }),
         new ExtractTextPlugin('css/[name]-' + configWebpack.contenthash + '.css', {
             filenamefilter: function(filename) {
                 return filename.replace('/js', '')
@@ -136,7 +135,7 @@ var prodConfig = {
     externals: {
         'react': 'React',
         'react-dom': 'ReactDOM',
-        'antd': 'antd',
+        'antd': 'window.antd',
     },
     watch: false, //  watch mode
 }

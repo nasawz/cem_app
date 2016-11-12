@@ -5,7 +5,7 @@ var webpack = require('webpack')
 var webpackDevMiddleware = require('webpack-dev-middleware')
 var webpackHotMiddleware = require('webpack-hot-middleware')
 var ProgressPlugin = require('webpack/lib/ProgressPlugin')
-var proxy = require('proxy-middleware')
+// var proxy = require('proxy-middleware')
 var ProgressBar = require('progress')
 
 var webpackConfig = require('./webpack.dev.js'),
@@ -37,9 +37,9 @@ app.use(webpackDevMiddleware(compiler, {
 }))
 app.use(webpackHotMiddleware(compiler))
 // 前端转发
-app.use(config.server.hostDirectory, proxy('http://localhost:' + port))
+// app.use(config.server.hostDirectory, proxy('http://localhost:' + port))
 // 后台转发
-app.use('/api/', proxy('http://219.234.5.94:8081'))
+// app.use('/api/', proxy('http://219.234.5.94:8081'))
 
 app.listen(port, function(err) {
     if (err) {
