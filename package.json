@@ -61,6 +61,7 @@
         "react-mini-router": "git+https://github.com/nasawz/react-mini-router.git",
         "react-mount": "https://github.com/nasawz/react-mount#master",
         "react-redux": "^4.4.5",
+        "react-tools": "^0.13.3",
         "redux": "^3.6.0",
         "redux-logger": "^2.6.1",
         "redux-thunk": "^2.1.0",

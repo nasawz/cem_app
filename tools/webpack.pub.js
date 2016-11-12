@@ -22,8 +22,8 @@ var prodConfig = {
     output: {
         publicPath: configWebpack.cdn,
         path: path.join(configWebpack.path.pub),
-        filename: 'js/[name]-' + configWebpack.chunkhash + '.js',
-        chunkFilename: 'chunk/[name]-' + configWebpack.chunkhash + '.js',
+        filename: 'js/[name].js',
+        chunkFilename: 'chunk/[name].js',
     },
     module: {
         loaders: [
@@ -93,15 +93,15 @@ var prodConfig = {
                 to: 'libs/'
             }
         ], {
-            namePattern: '[name]-' + configWebpack.contenthash + '.js'
+            namePattern: '[name].js'
         }),
         new webpack.optimize.OccurrenceOrderPlugin(true),
-        new webpack.optimize.CommonsChunkPlugin(
-            {
-                name: 'vendor',
-                filename: 'js/[name]-' + configWebpack.chunkhash + '.js'
-            }
-        ),
+        // new webpack.optimize.CommonsChunkPlugin(
+        //     {
+        //         name: 'vendor',
+        //         filename: 'js/[name]-' + configWebpack.chunkhash + '.js'
+        //     }
+        // ),
         // new OptimizeCssAssetsPlugin({
         //     assetNameRegExp: /\.css$/g,
         //     cssProcessor: require('cssnano'),
@@ -116,7 +116,7 @@ var prodConfig = {
         //     },
         //     canPrint: true
         // }),
-        new ExtractTextPlugin('css/[name]-' + configWebpack.contenthash + '.css', {
+        new ExtractTextPlugin('css/[name].css', {
             filenamefilter: function(filename) {
                 return filename.replace('/js', '')
             },

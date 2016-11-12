@@ -1,6 +1,6 @@
 {
     "dev": {
-        "title": "community",
+        "title": "cem",
         "filename": "index",
         "chunks": {
             "libs/react": null,
@@ -12,7 +12,7 @@
                 }
             },
             "libs/antd": null,
-            "community": {
+            "cem": {
                 "attr": {
                     "js": "",
                     "css": ""
@@ -21,7 +21,7 @@
         }
     },
     "pub": {
-        "title": "community",
+        "title": "cem",
         "filename": "index",
         "chunks": {
             "libs/react": null,
@@ -33,7 +33,7 @@
                 }
             },
             "libs/antd": null,
-            "community": {
+            "cem": {
                 "attr": {
                     "js": "",
                     "css": ""

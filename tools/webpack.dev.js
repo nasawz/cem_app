@@ -86,7 +86,7 @@ var devConfig = {
                 to: 'libs/'
             }
         ]),
-        new webpack.optimize.CommonsChunkPlugin('vendor', 'js/vendor.js'),
+        // new webpack.optimize.CommonsChunkPlugin('vendor', 'js/vendor.js'),
         // new OptimizeCssAssetsPlugin({
         //     assetNameRegExp: /\.css$/g,
         //     cssProcessor: require('cssnano'),
