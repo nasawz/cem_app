@@ -13,9 +13,9 @@ const SiteNavBar = React.createClass({
                         <i className="icon wb-more-horizontal" aria-hidden="true"></i>
                     </button>
                     <div className="navbar-brand navbar-brand-center site-gridmenu-toggle" data-toggle="gridmenu">
-                        <img className="navbar-brand-logo" src="assets/images/logo.png" title="Remark"/>
+                        <img className="navbar-brand-logo" src="assets/images/logo.png" title="CEM"/>
                         <span className="navbar-brand-text hidden-xs-down">
-                            Remark</span>
+                            CEM</span>
                     </div>
                     <button type="button" className="navbar-toggler collapsed" data-target="#site-navbar-search" data-toggle="collapse">
                         <span className="sr-only">Toggle Search</span>
