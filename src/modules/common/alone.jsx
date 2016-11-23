@@ -5,7 +5,7 @@ import React, {PropTypes} from 'react'
 import Container from './container.jsx'
 
 
-import {parse} from 'cex/helpers/browser-safe.js'
+import {parse} from './browser-safe.js'
 
 const Routes = React.createClass({
     childContextTypes: {
