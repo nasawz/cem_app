@@ -30,7 +30,7 @@ const Home = React.createClass({
                                     </Card>
                                 </Col>
                             </Row>
-                            <p></p>
+                            <p className='getter'></p>
                             <Row gutter={16}>
                                 <Col className="gutter-row" span={24}>
                                     <Card title="帖子" bordered={false} extra={<span>2016-11-15 11:03</span>}>
@@ -47,7 +47,7 @@ const Home = React.createClass({
                                 <p>Card content</p>
                                 <p>Card content</p>
                             </Card>
-                            <p></p>
+                            <p className='getter'></p>
                             <Card title="任务数" bordered={false} extra={<span>2016-11-15 11:03</span>}>
                                 <p>Card content</p>
                                 <p>Card content</p>
