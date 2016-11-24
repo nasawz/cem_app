@@ -6,6 +6,7 @@ import React from 'react'
 
 const Home = React.createClass({
     render() {
+        let minHeight = window.innerHeight
         return (
             <div className="page" data-animsition-in="fade-in" data-animsition-out="fade-out">
                 <div className="page-content">
@@ -17,7 +18,7 @@ const Home = React.createClass({
                         <p className="font-size-20">Community engine management.</p>
                     </div>
 
-                    <div className="page-login-main">
+                    <div className="page-login-main" style={{minHeight:`${minHeight}px`}}>
                         <div className="brand hidden-md-up">
                             <img className="brand-img" src="assets/images/logo-blue@2x.png" alt="..."/>
                             <h3 className="brand-text font-size-40">Remark</h3>
