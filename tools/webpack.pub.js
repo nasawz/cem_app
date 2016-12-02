@@ -95,6 +95,18 @@ var prodConfig = {
         ], {
             namePattern: '[name].js'
         }),
+        new CopyWebpackPlugin([
+            {
+                from: configWebpack.path.src + '/assets/',
+                to: 'assets/'
+            }
+        ]),
+        new CopyWebpackPlugin([
+            {
+                from: configWebpack.path.src + '/mxgraph/',
+                to: 'mxgraph/'
+            }
+        ]),
         new webpack.optimize.OccurrenceOrderPlugin(true),
         // new webpack.optimize.CommonsChunkPlugin(
         //     {

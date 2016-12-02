@@ -92,6 +92,12 @@ var devConfig = {
                 to: 'assets/'
             }
         ]),
+        new CopyWebpackPlugin([
+            {
+                from: configWebpack.path.src + '/mxgraph/',
+                to: 'mxgraph/'
+            }
+        ]),
         // new webpack.optimize.CommonsChunkPlugin('vendor', 'js/vendor.js'),
         // new OptimizeCssAssetsPlugin({
         //     assetNameRegExp: /\.css$/g,

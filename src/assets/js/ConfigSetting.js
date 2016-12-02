@@ -1,0 +1,1 @@
+Config.set('assets', 'assets');

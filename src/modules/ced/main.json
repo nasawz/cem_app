@@ -1,0 +1,132 @@
+{
+    "dev": {
+        "title": "ced",
+        "filename": "ced",
+        "chunks": {
+            "assets/css/bootstrap.min.css":{"res":"assets/css/bootstrap.min.css"},
+            "assets/css/bootstrap-extend.min.css":{"res":"assets/css/bootstrap-extend.min.css"},
+            "assets/css/site.min.css":{"res":"assets/css/site.min.css"},
+            "assets/vendor/animsition/animsition.css":{"res":"assets/vendor/animsition/animsition.css"},
+            "assets/vendor/asscrollable/asScrollable.css":{"res":"assets/vendor/asscrollable/asScrollable.css"},
+            "assets/vendor/switchery/switchery.css":{"res":"assets/vendor/switchery/switchery.css"},
+            "assets/vendor/intro-js/introjs.css":{"res":"assets/vendor/intro-js/introjs.css"},
+            "assets/vendor/slidepanel/slidePanel.css":{"res":"assets/vendor/slidepanel/slidePanel.css"},
+            "assets/vendor/jquery-mmenu/jquery-mmenu.css":{"res":"assets/vendor/jquery-mmenu/jquery-mmenu.css"},
+            "assets/vendor/flag-icon-css/flag-icon.css":{"res":"assets/vendor/flag-icon-css/flag-icon.css"},
+            "assets/vendor/jquery-mmenu/jquery-mmenu.css":{"res":"assets/vendor/jquery-mmenu/jquery-mmenu.css"},
+            "assets/fonts/web-icons/web-icons.min.css":{"res":"assets/fonts/web-icons/web-icons.min.css"},
+            "assets/fonts/brand-icons/brand-icons.min.css":{"res":"assets/fonts/brand-icons/brand-icons.min.css"},
+            "assets/vendor/breakpoints/breakpoints.js":{"res":"assets/vendor/breakpoints/breakpoints.js"},
+            "assets/vendor/breakpoints/breakpointsRun.js":{"res":"assets/vendor/breakpoints/breakpointsRun.js"},
+            "assets/vendor/babel-external-helpers/babel-external-helpers.js":{"res":"assets/vendor/babel-external-helpers/babel-external-helpers.js"},
+            "assets/vendor/jquery/jquery.js":{"res":"assets/vendor/jquery/jquery.js"},
+            "assets/vendor/tether/tether.js":{"res":"assets/vendor/tether/tether.js"},
+            "assets/vendor/bootstrap/bootstrap.js":{"res":"assets/vendor/bootstrap/bootstrap.js"},
+            "assets/vendor/animsition/animsition.js":{"res":"assets/vendor/animsition/animsition.js"},
+            "assets/vendor/mousewheel/jquery.mousewheel.js":{"res":"assets/vendor/mousewheel/jquery.mousewheel.js"},
+            "assets/vendor/asscrollbar/jquery-asScrollbar.js":{"res":"assets/vendor/asscrollbar/jquery-asScrollbar.js"},
+            "assets/vendor/asscrollable/jquery-asScrollable.js":{"res":"assets/vendor/asscrollable/jquery-asScrollable.js"},
+            "assets/vendor/jquery-mmenu/jquery.mmenu.min.all.js":{"res":"assets/vendor/jquery-mmenu/jquery.mmenu.min.all.js"},
+            "assets/vendor/switchery/switchery.min.js":{"res":"assets/vendor/switchery/switchery.min.js"},
+            "assets/vendor/intro-js/intro.js":{"res":"assets/vendor/intro-js/intro.js"},
+            "assets/vendor/screenfull/screenfull.js":{"res":"assets/vendor/screenfull/screenfull.js"},
+            "assets/vendor/slidepanel/jquery-slidePanel.js":{"res":"assets/vendor/slidepanel/jquery-slidePanel.js"},
+            "assets/js/State.js":{"res":"assets/js/State.js"},
+            "assets/js/Component.js":{"res":"assets/js/Component.js"},
+            "assets/js/Plugin.js":{"res":"assets/js/Plugin.js"},
+            "assets/js/Base.js":{"res":"assets/js/Base.js"},
+            "assets/js/Config.js":{"res":"assets/js/Config.js"},
+            "assets/js/Section/Menubar.js":{"res":"assets/js/Section/Menubar.js"},
+            "assets/js/Section/Sidebar.js":{"res":"assets/js/Section/Sidebar.js"},
+            "assets/js/Section/PageAside.js":{"res":"assets/js/Section/PageAside.js"},
+            "assets/js/config/colors.js":{"res":"assets/js/config/colors.js"},
+            "assets/js/config/tour.js":{"res":"assets/js/config/tour.js"},
+            "assets/js/ConfigSetting.js":{"res":"assets/js/ConfigSetting.js"},
+            "assets/js/Site.js":{"res":"assets/js/Site.js"},
+            "assets/js/Plugin/asscrollable.js":{"res":"assets/js/Plugin/asscrollable.js"},
+            "assets/js/Plugin/slidepanel.js":{"res":"assets/js/Plugin/slidepanel.js"},
+            "assets/js/Plugin/switchery.js":{"res":"assets/js/Plugin/switchery.js"},
+            "libs/react": null,
+            "libs/react-dom": null,
+            "mxgraph/mxSetting": null,
+            "mxgraph/src/js/mxClient": null,
+            "vendor": {
+                "attr": {
+                    "js": "",
+                    "css": ""
+                }
+            },
+            "ced": {
+                "attr": {
+                    "js": "",
+                    "css": ""
+                }
+            }
+        }
+    },
+    "pub": {
+        "title": "ced",
+        "filename": "ced",
+        "chunks": {
+            "assets/css/bootstrap.min.css":{"res":"assets/css/bootstrap.min.css"},
+            "assets/css/bootstrap-extend.min.css":{"res":"assets/css/bootstrap-extend.min.css"},
+            "assets/css/site.min.css":{"res":"assets/css/site.min.css"},
+            "assets/vendor/animsition/animsition.css":{"res":"assets/vendor/animsition/animsition.css"},
+            "assets/vendor/asscrollable/asScrollable.css":{"res":"assets/vendor/asscrollable/asScrollable.css"},
+            "assets/vendor/switchery/switchery.css":{"res":"assets/vendor/switchery/switchery.css"},
+            "assets/vendor/intro-js/introjs.css":{"res":"assets/vendor/intro-js/introjs.css"},
+            "assets/vendor/slidepanel/slidePanel.css":{"res":"assets/vendor/slidepanel/slidePanel.css"},
+            "assets/vendor/jquery-mmenu/jquery-mmenu.css":{"res":"assets/vendor/jquery-mmenu/jquery-mmenu.css"},
+            "assets/vendor/flag-icon-css/flag-icon.css":{"res":"assets/vendor/flag-icon-css/flag-icon.css"},
+            "assets/vendor/jquery-mmenu/jquery-mmenu.css":{"res":"assets/vendor/jquery-mmenu/jquery-mmenu.css"},
+            "assets/fonts/web-icons/web-icons.min.css":{"res":"assets/fonts/web-icons/web-icons.min.css"},
+            "assets/fonts/brand-icons/brand-icons.min.css":{"res":"assets/fonts/brand-icons/brand-icons.min.css"},
+            "assets/vendor/breakpoints/breakpoints.js":{"res":"assets/vendor/breakpoints/breakpoints.js"},
+            "assets/vendor/breakpoints/breakpointsRun.js":{"res":"assets/vendor/breakpoints/breakpointsRun.js"},
+            "assets/vendor/babel-external-helpers/babel-external-helpers.js":{"res":"assets/vendor/babel-external-helpers/babel-external-helpers.js"},
+            "assets/vendor/jquery/jquery.js":{"res":"assets/vendor/jquery/jquery.js"},
+            "assets/vendor/tether/tether.js":{"res":"assets/vendor/tether/tether.js"},
+            "assets/vendor/bootstrap/bootstrap.js":{"res":"assets/vendor/bootstrap/bootstrap.js"},
+            "assets/vendor/animsition/animsition.js":{"res":"assets/vendor/animsition/animsition.js"},
+            "assets/vendor/mousewheel/jquery.mousewheel.js":{"res":"assets/vendor/mousewheel/jquery.mousewheel.js"},
+            "assets/vendor/asscrollbar/jquery-asScrollbar.js":{"res":"assets/vendor/asscrollbar/jquery-asScrollbar.js"},
+            "assets/vendor/asscrollable/jquery-asScrollable.js":{"res":"assets/vendor/asscrollable/jquery-asScrollable.js"},
+            "assets/vendor/jquery-mmenu/jquery.mmenu.min.all.js":{"res":"assets/vendor/jquery-mmenu/jquery.mmenu.min.all.js"},
+            "assets/vendor/switchery/switchery.min.js":{"res":"assets/vendor/switchery/switchery.min.js"},
+            "assets/vendor/intro-js/intro.js":{"res":"assets/vendor/intro-js/intro.js"},
+            "assets/vendor/screenfull/screenfull.js":{"res":"assets/vendor/screenfull/screenfull.js"},
+            "assets/vendor/slidepanel/jquery-slidePanel.js":{"res":"assets/vendor/slidepanel/jquery-slidePanel.js"},
+            "assets/js/State.js":{"res":"assets/js/State.js"},
+            "assets/js/Component.js":{"res":"assets/js/Component.js"},
+            "assets/js/Plugin.js":{"res":"assets/js/Plugin.js"},
+            "assets/js/Base.js":{"res":"assets/js/Base.js"},
+            "assets/js/Config.js":{"res":"assets/js/Config.js"},
+            "assets/js/Section/Menubar.js":{"res":"assets/js/Section/Menubar.js"},
+            "assets/js/Section/Sidebar.js":{"res":"assets/js/Section/Sidebar.js"},
+            "assets/js/Section/PageAside.js":{"res":"assets/js/Section/PageAside.js"},
+            "assets/js/config/colors.js":{"res":"assets/js/config/colors.js"},
+            "assets/js/config/tour.js":{"res":"assets/js/config/tour.js"},
+            "assets/js/ConfigSetting.js":{"res":"assets/js/ConfigSetting.js"},
+            "assets/js/Site.js":{"res":"assets/js/Site.js"},
+            "assets/js/Plugin/asscrollable.js":{"res":"assets/js/Plugin/asscrollable.js"},
+            "assets/js/Plugin/slidepanel.js":{"res":"assets/js/Plugin/slidepanel.js"},
+            "assets/js/Plugin/switchery.js":{"res":"assets/js/Plugin/switchery.js"},
+            "libs/react": null,
+            "libs/react-dom": null,
+            "mxgraph/mxSetting": null,
+            "mxgraph/src/js/mxClient": null,
+            "vendor": {
+                "attr": {
+                    "js": "",
+                    "css": ""
+                }
+            },
+            "ced": {
+                "attr": {
+                    "js": "",
+                    "css": ""
+                }
+            }
+        }
+    }
+}
