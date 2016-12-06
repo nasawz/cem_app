@@ -113,8 +113,7 @@
             "assets/js/Plugin/switchery.js":{"res":"assets/js/Plugin/switchery.js"},
             "libs/react": null,
             "libs/react-dom": null,
-            "mxgraph/mxSetting": null,
-            "mxgraph/src/js/mxClient": null,
+            "mxgraph/mxClient": null,
             "vendor": {
                 "attr": {
                     "js": "",

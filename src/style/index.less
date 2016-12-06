@@ -4,7 +4,29 @@ body {
     background: #FFF;
 }
 
-
 .getter {
     min-height: 16px;
+}
+
+.site-menubar-fold .page-aside-fixed.page-aside-left .page-aside {
+  left: 65px;
+}
+
+.site-menubar-unfold .page-aside-fixed.page-aside-left .page-aside {
+  left: 260px;
+}
+
+.page-aside-l-r {
+    .page-main {
+        margin-left: 260px;
+        margin-right: 260px;
+    }
+}
+@media (max-width: 1199px) {
+    .page-aside-l-r {
+        .page-main {
+            margin-left: 220px;
+            margin-right: 220px;
+        }
+    }
 }
